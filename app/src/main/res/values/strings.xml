@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">记账软件</string>
+    <string name="textButton_1">支出</string>
+    <string name="action_settings">设置</string>
+    <string name="textButton3">消费分析</string>
+    <string name="editText1">在此输入消费金额</string>
+    <string name="editText2">在此输入具体内容</string>
+    <string name="editText3">在此输入时间</string>
+    <string name="textView1">创建新的消费</string>
+    <string name="textView2">消费金额</string>
+    <string name="textView3">具体内容</string>
+    <string name="textView4">录入时间</string>
+    <string name="textView5">消费类型</string>
+    <string name="button_confirm">确定</string>
+    <string name="button_cancel">取消</string>
+    <string name="tips">无效输入</string>
+    <string name="success">添加成功</string>
+    <string name="delete">删除成功</string>
+    <string name="editView1">修改你的消费</string>
+    <string name="button_delete">删除</string>
+    <string name="canshi">餐食</string>
+    <string name="yinliao">饮料</string>
+    <string name="gouwu">购物</string>
+    <string name="xuexi">学习</string>
+    <string name="yiliao">医疗</string>
+    <string name="jiaotong">交通</string>
+    <string name="yule">娱乐</string>
+</resources>

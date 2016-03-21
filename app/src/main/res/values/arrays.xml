@@ -1,0 +1,12 @@
+
+<resources>
+    <string-array name="spingarr">
+        <item>Entertainment</item>
+        <item>Food</item>
+        <item>Drink</item>
+        <item>Transportation</item>
+        <item>Medicine</item>
+        <item>Study</item>
+        <item>Shopping</item>
+    </string-array>
+</resources>

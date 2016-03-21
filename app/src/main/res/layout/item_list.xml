@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/cost_list_item_sortTextView"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:gravity="center_horizontal"
+
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:textStyle="normal"
+        android:textColor="#ffffff"
+        android:background="#ff7300"
+        android:text="消费\n类型"/>
+
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/cost_list_item_costTextView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+
+            android:paddingTop="10dp"
+
+            android:textColor="#ff7300"
+            android:text="消费金额    "/>
+
+        <TextView
+            android:id="@+id/cost_list_item_dateTextView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingTop="10dp"
+
+            android:textColor="#ffd5b2"
+            android:textStyle="normal"
+
+            android:text="消费日期    "/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/cost_list_item_contentTextView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:textColor="#fff"
+        android:background="#ff7300"
+        android:text="具体\n内容"/>
+
+</LinearLayout>
